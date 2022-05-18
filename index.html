@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Todo List</title>
+</head>
+<body>
+  
+  <div class="container">
+   <div class="todo mt-5 p-3 border w-50 mx-auto">
+    <form class="form  mb-3 d-flex justify-content-between " autocomplete="off" >
+      <input class="form__input w-50" type="text" placeholder="Enter your plane" aria-label="Enter your plane">
+
+      <button class="form__btn" type="submit">Add</button>
+    </form>
+
+    <ul class="todo-list mb-2"></ul>
+
+    <div class="todo__count d-flex justify-content-between">
+      <p><span class="all-count"></span> All</p>
+      <p><span class="complated-count"></span> Complated</p>
+      <p><span class="uncomplated-count"></span> Uncomplateds</p>
+    </div>
+   </div>
+  </div>
+
+
+  <script src="./js/main.js"></script>
+</body>
+</html>  
